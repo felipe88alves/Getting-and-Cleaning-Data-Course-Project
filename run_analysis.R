@@ -51,7 +51,7 @@ activity_labels <- read.table("activity_labels.txt",header=FALSE)
 labeledData$Activity_Labels <- activity_labels[match(labeledData$Activity_Labels, activity_labels$V1), 'V2']
 
 # Exercise 5 - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-tidy_labeledData2 <- labeledData %>%
+tidy_labeledData <- labeledData %>%
         group_by(Subject_Id, Activity_Labels) %>%
         summarise_all(funs(mean))
 
