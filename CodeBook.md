@@ -19,12 +19,12 @@ The columns included in the output file are listed below:
 
   - Subject_Id - The id of each of the 30 experiment participants.
   - Activity_Labels - The name of the activity that the measurements corresponds to:
-   -- LAYING
-   -- SITTING
-   -- STANDING
-   -- WALKING
-   -- WALKING_DOWNSTAIRS
-   -- WALKING_UPSTAIRS
+   - LAYING
+   - SITTING
+   - STANDING
+   - WALKING
+   - WALKING_DOWNSTAIRS
+   - WALKING_UPSTAIRS
 
 All of the following fields represent the mean of recorded data points for the given subject and activity. The detailed description of the different measurement types can be found in the `features_info.txt` file included in the data [zip file](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
