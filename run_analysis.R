@@ -56,5 +56,5 @@ tidy_labeledData2 <- labeledData %>%
         summarise_all(funs(mean))
 
 ## Export tidy Dataset
-write.csv(tidy_labeledData,"tidyDataset.txt")
+write.table(tidy_labeledData,"tidyDataset.txt",row.name=FALSE)
 
